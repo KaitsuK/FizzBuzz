@@ -1,4 +1,4 @@
-import scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable.{ArrayBuffer}
 
 object FizzBuzzCalculator {
 
@@ -29,6 +29,7 @@ object FizzBuzzCalculator {
 
   def getFizzBuzz(values: Seq[Int]) : Seq[String] = {
     var results :ArrayBuffer[String] = new ArrayBuffer[String]
+    val resValues :Seq[String] = Seq()
     for (x <- values) {
       results += getFizzBuzzResult(x)
     }

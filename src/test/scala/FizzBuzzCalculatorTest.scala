@@ -35,5 +35,4 @@ class FizzBuzzCalculatorTest extends org.scalatest.FunSuite {
     assert(FizzBuzzCalculator.getFizzBuzzResult(25) === "Buzz")
   }
 
-
 }
