@@ -1,6 +1,6 @@
 import scala.collection.mutable.ArrayBuffer
 
-object FizzBuzzCalculator extends App {
+object FizzBuzzCalculator {
 
   def evenByThree(x: Int) : Boolean  = {
     if ((x % 3) == 0) true else false
@@ -34,10 +34,4 @@ object FizzBuzzCalculator extends App {
     }
     return results.toSeq
   }
-
-  val values = Seq(-2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17)
-  val res = getFizzBuzz(values)
-  //for (name <- res) println(name)
-  println(res)
-
 }

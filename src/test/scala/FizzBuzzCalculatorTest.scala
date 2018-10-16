@@ -1,9 +1,5 @@
 class FizzBuzzCalculatorTest extends org.scalatest.FunSuite {
-/*
-  test("CubeCalculator.cube") {
-    assert(FizzBuzzCalculator.cube(3) === 27)
-  }
-*/
+
   test("FizzBuzzCalculator.notAllowedValue") {
     assert(FizzBuzzCalculator.notAllowedValue(-3) === true)
     assert(FizzBuzzCalculator.notAllowedValue(7) === false)
